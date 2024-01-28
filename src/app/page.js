@@ -2,6 +2,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import React from "react";
 import SubHome from "./subHome/page";
 import Footer from "@/components/Footer/Footer";
+import Banner from "@/components/Banner/Banner";
 
 const HomePage = () => {
   return (
@@ -9,7 +10,7 @@ const HomePage = () => {
       <Navbar> </Navbar>
 
       <div className="min-h-screen">
-        <p>This is Home Page</p>
+       <Banner></Banner>
         <SubHome></SubHome>
       </div>
 
