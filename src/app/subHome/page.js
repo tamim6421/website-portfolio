@@ -1,10 +1,17 @@
 import React from 'react';
 import AboutUs from '../aboutUs/page';
+import Banner from '@/components/Banner/Banner';
+import OurWorks from '@/components/OurWorks/OurWorks';
+import Services from '@/components/OurWorks/Services';
+
+
 
 const SubHome = () => {
     return (
         <div>
-            <p>This is sub home page</p>
+             <Banner></Banner>
+            <OurWorks></OurWorks>
+            <Services></Services>
             <AboutUs></AboutUs>
         </div>
     );
