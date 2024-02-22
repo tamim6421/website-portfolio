@@ -79,7 +79,7 @@ const OurWorks = () => {
                 <RiGlobalLine className="text-5xl text-[#796eed]  " />
               </p>
               <p className="text-xl md:text-2xl font-semibold text-[#0e047a] drop-shadow-md">
-                Team Augmentation
+              Project Development
               </p>
               <p className="text-gray-500">
                 Our team of expert software engineers provides additional
@@ -115,7 +115,7 @@ const OurWorks = () => {
                 <RiGlobalLine className="text-5xl text-[#796eed]  " />
               </p>
               <p className="text-xl md:text-2xl font-semibold text-[#0e047a] drop-shadow-md">
-                Team Augmentation
+              MVP Services
               </p>
               <p className="text-gray-500">
                 Our team of expert software engineers provides additional
