@@ -94,6 +94,9 @@ const Navbar = () => {
             <li>
               <Link className={` ${pathname === '/teamMember' ? '"relative border-b-2 border-amber-500 inline-block text-black hover:text-gray-800 group font-semibold pt-2 px-2 ': 'relative border-b-2 border-transparent inline-block text-black hover:text-gray-800 group font-semibold pt-2 px-2'}`} href="/teamMember">Team</Link>
             </li>
+            <li>
+              <Link className={` ${pathname === '/teamMember' ? '"relative border-b-2 border-amber-500 inline-block text-black hover:text-gray-800 group font-semibold pt-2 px-2 ': 'relative border-b-2 border-transparent inline-block text-black hover:text-gray-800 group font-semibold pt-2 px-2'}`} href="/teamMember">Contact </Link>
+            </li>
 
             <li>
               <a>Experience</a>
